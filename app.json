@@ -1,0 +1,73 @@
+{
+  "name": "Youtube Upload Bot",
+  "description": "Telegram to YouTube Uploader Bot",
+  "repository": "https://github.com/chbra1/utube",
+  "logo": "https://github.com/odysseusmax/utube/blob/master/ss/logo.jpeg",
+  "keywords": ["telegram", "youtube", "uploader"],
+  "env": {
+      "BOT_TOKEN": {
+      "description": "Your Bot token. Get from https://t.me/botfather",
+      "value": "1345861069:AAFQYW8-00tCz8zliGfWHyiuQqisfbEKKlo"
+    },
+    "SESSION_NAME": {
+      "description": "Your Bot's username.",
+      "value": "youtubeitbot",
+      "required":false
+    },
+    "API_ID": {
+      "description": "Your API_ID.  Refer project docs.",
+      "value": "1247820"
+    },
+    "API_HASH": {
+      "description": "Your API_ID. Refer project docs.",
+      "value": "16a8d09ae2a411de3cc51d244086e2fb"
+    },
+    "CLIENT_ID": {
+      "description": "Your Google CLIENT_ID. Refer project docs.",
+      "value": "234062006329-bqh8een12beli4mmio7iqo4fo9li2ifs.apps.googleusercontent.com"
+    },
+    "CLIENT_SECRET": {
+      "description": "Your Google CLIENT_SECRET. Refer project docs.",
+      "value": "HZSdCc7uE5W90ijMrlDyvBxx"
+    },
+    "BOT_OWNER": {
+      "description": "Telegram id of the bot owner.",
+      "value": "824585001"
+    },
+    "AUTH_USERS": {
+      "description": "Telegram id of authorised users, separated by comma",
+      "value": "636576188",
+      "required":false
+    },
+    "VIDEO_DESCRIPTION": {
+      "description": "Any default description to be aded to the video.",
+      "value": "",
+      "required":false
+    },
+    "VIDEO_CATEGORY": {
+      "description": "YouTube's video category id.",
+      "value": "1",
+      "required":false
+    },
+    "VIDEO_TITLE_PREFIX": {
+      "description": "Any prefix to be added to the video's title.",
+      "value": "",
+      "required":false
+    },
+    "VIDEO_TITLE_SUFFIX": {
+      "description": "Any suffix to be added to the video's title.",
+      "value": "",
+      "required":false
+    },
+    "UPLOAD_MODE": {
+      "description": "The video's privacy status. Valid values for this property are: private, public, unlisted",
+      "value": "private",
+      "required":false
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
