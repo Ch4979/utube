@@ -24,11 +24,11 @@
     },
     "CLIENT_ID": {
       "description": "Your Google CLIENT_ID. Refer project docs.",
-      "value": "234062006329-bqh8een12beli4mmio7iqo4fo9li2ifs.apps.googleusercontent.com"
+      "value": ""
     },
     "CLIENT_SECRET": {
       "description": "Your Google CLIENT_SECRET. Refer project docs.",
-      "value": "HZSdCc7uE5W90ijMrlDyvBxx"
+      "value": ""
     },
     "BOT_OWNER": {
       "description": "Telegram id of the bot owner.",
@@ -36,7 +36,7 @@
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
-      "value": "636576188",
+      "value": "636576188","965319447"
       "required":false
     },
     "VIDEO_DESCRIPTION": {
