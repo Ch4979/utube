@@ -36,7 +36,7 @@
     },
     "AUTH_USERS": {
       "description": "Telegram id of authorised users, separated by comma",
-      "value": "636576188","965319447"
+      "value": "636576188,965319447"
       "required":false
     },
     "VIDEO_DESCRIPTION": {
